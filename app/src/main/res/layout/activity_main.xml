@@ -46,7 +46,7 @@
             android:text="R"
             android:id="@+id/radio_receive"
             android:checked="true"
-            android:clickable="false" />
+            />
 
         <RadioButton
             android:layout_width="wrap_content"
