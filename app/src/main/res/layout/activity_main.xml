@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.tacademy.jeongho.recyclerkakaopj.MainActivity">
+    tools:context="com.tacademy.jeongho.recyclerkakaopj.MainActivity"
+    android:background="@color/main_color">
 
     <EditText
         android:layout_width="wrap_content"
@@ -27,7 +28,8 @@
         android:id="@+id/btn_push"
         android:layout_alignBottom="@+id/editText"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/btn_color" />
 
     <RadioGroup
         android:layout_width="match_parent"

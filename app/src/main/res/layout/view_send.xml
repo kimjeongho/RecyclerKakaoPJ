@@ -18,5 +18,11 @@
         android:id="@+id/text_send"
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@+id/image_send"
-        android:layout_toStartOf="@+id/image_send" />
+        android:layout_toStartOf="@+id/image_send"
+        android:background="@drawable/send"
+        android:layout_marginLeft="@dimen/kakao_margin"
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="3dp" />
 </RelativeLayout>
